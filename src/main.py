@@ -131,4 +131,4 @@ def set_highscore():
 """
 
 
-app.run(host="0.0.0.0")#(host='0.0.0.0', port=8080, debug=True,use_reloader=False)
+app.run(host="0.0.0.0",port=8080)#(host='0.0.0.0', port=8080, debug=True,use_reloader=False)
