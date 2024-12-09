@@ -12,7 +12,7 @@ RUN pip install -r requirements.txt
 # copy every content from the local file to the image
 COPY . /src
 
-EXPOSE 5000
+EXPOSE 8080
 
 WORKDIR .
 
